@@ -19,6 +19,13 @@ module.exports = {
 		es2017: true,
 		node: true
 	},
+	globals: {
+		$state: true,
+		$props: true,
+		$derived: true,
+		$effects: true,
+		$inspect: true
+	},
 	overrides: [
 		{
 			files: ['*.svelte'],
